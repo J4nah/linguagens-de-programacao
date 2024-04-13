@@ -1,0 +1,51 @@
+img {
+    width: 120px;
+    height: 120px;
+}
+
+main {
+    display: flex;
+    gap: 10px;
+    height: 97vh;
+
+    /* justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    */
+
+    
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.cat {
+    border: 5px solid rgb(13, 240, 13);
+    order: 1;
+}
+
+.cat:hover {
+    border: 10px solid rgb(13, 240, 13);
+}
+
+.camel {
+    border: 5px solid yellow;
+    order: 3;
+}
+
+.camel:hover {
+    border: 10px solid yellow;
+}
+
+.horse {
+    border: 5px solid red;
+    order: 2;
+    align-self: center;
+}
+
+.horse:hover {
+    border: 10px solid red;
+}
