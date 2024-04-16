@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: darkmagenta;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: blueviolet;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    
+    cursor: pointer;
+
+    height: 20px;
+}
+
+.btn:hover{
+    background-color: rgb(109, 33, 180);
+    color: black;
+}
+
+.btn:active{
+    background-color: rgba(137, 43, 226, 0.684);
+}
+
+.start{
+    border-radius: 10px 0 0 10px;
+}
+
+.end{
+    border-radius: 0 10px 10px 0;
+}
+
+.active{
+    background-color:rgb(179, 117, 237);
+    color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.teclado{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+
+    border: rgb(80, 1, 80) 1px solid;
+    width: 35%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(196, 143, 246);
+}
+
+.tecla{
+    background-color: rgb(153, 99, 203);
+    color: white;
+    border: 1px solid purple ;
+    padding: 20px 32px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.tecla:hover{
+    background-color: rgb(158, 40, 158);
+    color: black;
+}
+
+.tecla:active{
+    background-color:rgb(155, 84, 221);
+    color: white;
+}
